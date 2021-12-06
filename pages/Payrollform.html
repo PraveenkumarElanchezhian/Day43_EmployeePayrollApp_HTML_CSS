@@ -2,9 +2,11 @@
 <html lang="en">
     <head>
         <meta chaset="UTF-8">
+        <link rel="Shorcut icon" href="../assets/images/logo.png">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link href="../css/Payrollform.css" rel="StyleSheet">
         <title>Employee Payroll Form</title>
+        <script  src="../js/payroll.js"></script>
         <style>
         </style>
 
@@ -18,14 +20,14 @@
                  <span class="emp-text emp-payroll"> PAYROLL</span>
             </div>
         </div>
-    </header>
-    <div class="form-content">
+     </header>
+     <div class="form-content">
         <form class="form" action="#"
             onsubmit="save();return false">
             <div class="form-head">
                 Employee Payroll Form
 
-            <div class="row-content">
+             <div class="row-content">
                 <label class="label text"
                     for="name">Name</label>
                 <input class="input" type="text" id="name" name="name" placeholder="Your Name" required>
@@ -60,8 +62,8 @@
                      <input type="radio" id="female" name="gender" value="female">
                      <label class="text" for="female">Female</label>
                  </div>
-            </div>
-            <div class="row-content">
+             </div>
+             <div class="row-content">
                 <label class="label text" for="department">Department</label>
                 <div>
                     <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
@@ -81,7 +83,7 @@
                 <input class="input" type="range" name="salary" min="300000" max="500000" step="100" value="400000">
                 <output class="salary-output text" for="salary">400000</output>
                 </div>
-            <div class ="row-content">
+            <div class="row-content">
                 <label class="label text" for="startDate">Start Date</label>
             <div>
                 <select id="day" name="Day">
@@ -132,11 +134,14 @@
                     <option value="Dec">December</option>
                 </select>
                 <select id="year" name="Year">
+                    <option value ="2021">2021</option>
                     <option value ="2020">2020</option>
                     <option value="2019">2019</option>
                     <option value="2018">2018</option>
                     <option value="2017">2017</option>
+                    <option value="2016">2016</option>
                 </select>
+                </div>
                 </div>
                 <div class="row-content">
                 <label class="label text" for="notes" >Notes</label>
