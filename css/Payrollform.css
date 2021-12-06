@@ -32,6 +32,7 @@ body{
     text-transform: capitalize;
 }
 .emp-payroll{color: #42515f;}
+
 .form-content{
     min-height: cal(100%-80px);
     background-color: honeydew;
@@ -84,6 +85,7 @@ label{
     resize:vertical;
 
 }
+
 .profile-radio-content{
     display:flex;
     flex-direction: row;
