@@ -142,3 +142,6 @@ select{
 *{
     box-sizing: border-box;
 }
+.resetButton{
+    padding: 20px 40px;
+}
